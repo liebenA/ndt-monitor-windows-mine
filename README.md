@@ -24,4 +24,4 @@ We value your feedback! To help us improve the ndt7-client-windows tool, we invi
 
 Votre avis compte ! Pour nous aider à améliorer l'outil ndt7-client-windows, nous vous invitons à partager votre retour d'expérience. Veuillez remplir notre formulaire ci-dessous pour nous faire part de vos impressions, suggestions ou problèmes rencontrés lors de l'utilisation.
 
-[Donner votre avis](https://forms.gle/vmhRqiCb2odJasdT6)
+[Donner votre avis](https://forms.gle/vmhRqiCb2odJasdT6) (Cliquez-droit pour ouvrir dans un nouvel onglet)
