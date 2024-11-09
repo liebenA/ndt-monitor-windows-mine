@@ -18,7 +18,7 @@ Here is the windows client for ndt7-monitor use to test automatically "monitor.u
 
 We value your feedback! To help us improve the ndt7-client-windows tool, we invite you to share your experience. Please fill out our form below to let us know your impressions, suggestions, or any issues you encountered while using the tool.
 
-[Share your feedback here](https://forms.gle/vmhRqiCb2odJasdT6)
+[Share your feedback here](https://forms.gle/vmhRqiCb2odJasdT6) (Right-click to open in a new tab)
 
 ### Partagez votre expérience
 
