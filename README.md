@@ -2,8 +2,12 @@
 Un client Windows pour ndt7-monitor, conçu pour tester automatiquement les serveurs monitor.uac.bj et emes.bj.
 
 ## Installation de ndt7-client-windows
-- Télécharger et décompresser**ndt7-client-windows.zip**
+- Télécharger et décompresser **ndt7-client-windows.zip**
 - Exécuter **ndt7ClientExecution.bat** en tant que **Administrateur**
+- Un avertissement Windows apparaît concernant la copie des fichiers sur votre disque et la création des tâches pour les tests.
+
+![image](https://github.com/user-attachments/assets/a97d60be-1234-47ca-9d92-6737cf9b609c)
+
 - Les tests s'exécuteront toutes les 9 heures pour « monitor.uac.bj » et toutes les 10 heures pour « emes.bj ».
 
 ### Partagez votre expérience
