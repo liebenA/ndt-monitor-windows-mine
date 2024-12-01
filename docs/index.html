@@ -7,6 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
             background: #f4f4f9;
@@ -43,20 +44,8 @@
             padding-bottom: 0.2em;
             margin-bottom: 0.5em;
         }
-        .section ul {
-            list-style: none;
-            padding: 0;
-        }
-        .section ul li {
-            background: #f9f9f9;
+        .section p {
             margin: 0.5em 0;
-            padding: 0.8em;
-            border-left: 4px solid #0078d7;
-        }
-        .section img {
-            max-width: 100%;
-            border-radius: 8px;
-            margin-top: 1em;
         }
         .button {
             display: inline-block;
@@ -87,24 +76,52 @@
 <body>
     <header>
         <h1>ndt7-client-windows</h1>
-        <p>Un client Windows pour tester automatiquement la connectivité avec monitor.uac.bj et emes.bj</p>
+        <p>Solution Windows pour tester automatiquement monitor.uac.bj et emes.bj</p>
     </header>
     <div class="container">
         <section class="section">
-            <h2>Installation de ndt7-client-windows</h2>
-            <ul>
-                <li>Télécharger et décompresser <strong>ndt7-client-windows.zip</strong></li>
-                <li>Exécuter <strong>ndt7ClientExecution.bat</strong> en tant qu'Administrateur</li>
-                <li>Un avertissement Windows apparaît concernant la copie des fichiers et la création des tâches pour les tests.</li>
-                <li>Les tests s'exécuteront toutes les 9 heures pour « monitor.uac.bj » et toutes les 10 heures pour « emes.bj ».</li>
-            </ul>
-            <img src="images/img-github.png" alt="installation">
+            <h2>Présentation de NDT (Network Diagnostic Tool)</h2>
+            <p>
+                NDT (Network Diagnostic Tool) est un outil de mesure de performance qui évalue la capacité d'une connexion
+                à effectuer des transferts massifs. Il mesure la vitesse d'upload et de download ainsi que la latence.
+            </p>
+            <p>
+                Si vous souhaitez exécuter un test NDT, visitez notre site : 
+                <a href="https://speed.measurementlab.net" target="_blank" class="button">Exécuter un test NDT</a>
+            </p>
         </section>
 
         <section class="section">
-            <h2>Partagez votre expérience</h2>
-            <p>Votre avis nous intéresse ! Pour nous aider à améliorer l'outil ndt7-client-windows, veuillez remplir le formulaire ci-dessous pour partager vos impressions, suggestions ou signaler des problèmes.</p>
-            <a href="https://forms.gle/vmhRqiCb2odJasdT6" class="button">Remplissez le formulaire</a>
+            <h2>Historique de NDT</h2>
+            <p>
+                Initialement développé par Internet2, NDT est hébergé et maintenu par M-Lab depuis sa création en 2009.
+                Au fil des années, son développement a été marqué par trois thèmes principaux :
+            </p>
+            <ul>
+                <li>Instrumentation standard du noyau</li>
+                <li>Avancées dans le contrôle de congestion TCP</li>
+                <li>Protocole et ports permettant une compatibilité accrue</li>
+            </ul>
+            <p>
+                Le protocole <strong>ndt7</strong>, lancé en février 2020, utilise TCP BBR lorsque disponible, sinon il revient à Cubic. 
+                Il s'exécute sur des ports HTTP(S) standards et recueille des statistiques TCP via <code>tcp-info</code>.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Notre solution : ndt7-client-windows</h2>
+            <p>
+                Nous avons développé une solution <strong>ndt7-client</strong> pour Windows, conçue pour tester automatiquement les serveurs 
+                <strong>monitor.uac.bj</strong> et <strong>emes.bj</strong>.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Voir le dépôt GitHub</h2>
+            <p>
+                Découvrez notre dépôt GitHub pour le projet <strong>ndt7-client-windows</strong> à l'adresse suivante :
+            </p>
+            <a href="https://github.com/liebenA/ndt-monitor-windows-mine" target="_blank" class="button">Voir le dépôt GitHub</a>
         </section>
     </div>
     <footer>
