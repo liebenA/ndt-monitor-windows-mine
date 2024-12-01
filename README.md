@@ -1,6 +1,11 @@
 # ndt7-client-windows
 Un client Windows pour ndt7-monitor, conçu pour tester automatiquement les serveurs monitor.uac.bj et emes.bj.
 
+## Page Web de GitHub Pages
+
+Vous pouvez consulter la page de présentation de `ndt7-client-windows` en ligne à l'adresse suivante :  
+[https://liebena.github.io/ndt-monitor-windows-mine/](https://liebena.github.io/ndt-monitor-windows-mine/)
+
 ## Installation de ndt7-client-windows
 - Télécharger et décompresser **ndt7-client-windows.zip**
 - Exécuter **ndt7ClientExecution.bat** en tant que **Administrateur**
